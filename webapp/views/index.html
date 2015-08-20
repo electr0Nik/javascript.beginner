@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<button onclick="doFunction();">click me hard!</button>
+<script>
+  function getResult(x, y) {
+    return x + y;
+  }
+
+
+  function getHelloWorld() {
+    return "hello world!";
+  }
+
+  function alertFunction(f) {
+    alert(f);
+  }
+
+
+  function doFunction() {
+    window.alertFunction(getHelloWorld());
+    window.alertFunction(getResult(12, 55));
+  }
+</script>
+</body>
+</html>
